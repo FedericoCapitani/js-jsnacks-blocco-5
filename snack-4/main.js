@@ -8,11 +8,13 @@ function fusione_array(array_1, array_2){
     /* for (let i = 0; i < array_1.length; i++) {
         new_array.push(array_1[i])
         new_array.push(array_2[i])
-    } */
-    array_1.forEach((element, element_2) => {
-        new_array.push(element)
-        new_array.push(element_2)
-    });
+    }  */
+    if(array_1.lenght === array_2.lenght){
+        array_1.forEach((element, index) =>{
+            new_array.push(element);
+            new_array.push(array_2[index])
+        })
+    }
 
     return new_array
 }
