@@ -5,10 +5,14 @@ es. [a,b,c], [1,2,3] → [a,1,b,2,c,3].
 
 function fusione_array(array_1, array_2){
     let new_array = []
-    for (let i = 0; i < array_1.length; i++) {
+    /* for (let i = 0; i < array_1.length; i++) {
         new_array.push(array_1[i])
         new_array.push(array_2[i])
-    }
+    } */
+    array_1.forEach((element, array_2element) => {
+        new_array.push(element)
+        new_array.push(array_2element)
+    });
 
     return new_array
 }
