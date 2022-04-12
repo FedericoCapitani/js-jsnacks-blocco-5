@@ -14,6 +14,6 @@ function reverseString(str){
 
 const string = 'Ciao, come stai?'
 
-let reverse_string = reverseString(string)
+let reversed_string = reverseString(string)
 
-console.log(reverse_string);
+console.log(reversed_string);
