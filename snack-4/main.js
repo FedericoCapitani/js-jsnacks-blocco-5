@@ -9,9 +9,9 @@ function fusione_array(array_1, array_2){
         new_array.push(array_1[i])
         new_array.push(array_2[i])
     } */
-    array_1.forEach((element, array_2element) => {
+    array_1.forEach((element, element_2) => {
         new_array.push(element)
-        new_array.push(array_2element)
+        new_array.push(element_2)
     });
 
     return new_array
